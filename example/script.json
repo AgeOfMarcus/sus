@@ -1,0 +1,15 @@
+{
+    "name": "Script name",
+    "desc": "This is a script that does x with y",
+    "auto": false, // the script requires the user to do stuff
+    "vars": {
+        "name": "Name of z to search for",
+    },
+    "output": "var", // can be str, bool, list, json, or var (varied)
+    "docs": true, // this means the script dir contains a README.md file
+    "files": [
+        "example.py",
+        "data.db",
+    ],
+    "entry": "example.py", // the "main" file
+}
